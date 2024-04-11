@@ -1,0 +1,100 @@
+.shopping-container{
+    width: 97%;
+    height: 97vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: var(--spacing-large);
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+}
+
+.shopping-element__name{
+    padding: var(--spacing-medium);
+    font-weight: bold;
+}
+
+.shopping-element__price{
+    padding: var(--spacing-medium);
+    color: var(--color-unaccent);
+}
+
+.shopping__close{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    background-image: url(C:/Users/Baimu/Desktop/juteexsite/page2/components/Shopping/img/close.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+form{
+    padding: 100px 100px 100px;
+}
+
+input{
+    background: transparent;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid green;
+    padding-left: 20px;
+    font-size: 24px;
+    color: grey;
+}
+
+input::placeholder{
+    font-size: 24px;
+    color: grey;
+}
+
+input:focus::placeholder{
+    color:darkslategray
+}
+input:focus{
+    outline: none;
+}
+
+.name{
+    width: 100%;
+}
+
+.email{
+    width: 49.8%;
+    margin-top: 50px;
+}
+
+.phone{
+    width: 49.8%;
+    margin-top: 50px;
+}
+
+.adress{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.button_order {
+    padding: 15px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid green;
+    background: white;
+    margin-top: 40px;
+}
+
+.button_order:hover{
+    background: var(--linear-gradient) ;
+}
+
+.button_order:active{
+    transform:translateY(2px)
+}
